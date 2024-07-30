@@ -11,6 +11,9 @@
     .menu-plus{
         opacity: 0;
     }
+    .last-sub-heading{
+        opacity: 0;
+    }
 }
 
 
@@ -94,6 +97,51 @@
         width: 45px;
         padding-left: 11px;
     }
+        /* magic design */
+        .magic-design{
+            height: 45px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        .new-design{
+            height: 15px;
+            width: 60px;
+            background-color: blue;
+            border-radius: 10px;
+        }
+       .new-design{
+        font-size: 10px;
+        color: white;
+       }
+       .big-screen{
+        height: 300px;
+        width: 100%;
+       }
+       .big-image{
+        height: 95%;
+        width: 95%;
+        background-size: cover;
+       }
+       .big-image:hover{
+        
+            filter: brightness(1.14);
+        
+       }
+          /* resume-sub */
+   .resume-sub{
+    height: 55pxpx;
+   }
+   .main-heading{
+     font-size: 1.3rem;
+     font-weight: 700;
+     color: #4c4bf0;
+     word-spacing: 2;
+   }
+   .sub-heading{
+    color: rgb(77, 77, 109);
+    background-size: .8rem;
+    font-weight: 600;
+   }
 }
 @media screen and (min-width: 992px) {
     .first-row{
@@ -174,5 +222,53 @@
         width: 45px;
         padding-left: 11px;
     }
+
+
+    /* magic design */
+    .magic-design{
+        height: 45px;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .new-design{
+        height: 15px;
+        width: 60px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+   .new-design{
+    font-size: 10px;
+    color: white;
+   }
+   .big-screen{
+    height: 300px;
+    width: 100%;
+   }
+   .big-image{
+    height: 95%;
+    width: 95%;
+    background-size: cover;
+   }
+   .big-image:hover{
+    
+        filter: brightness(1.14);
+    
+   }
+
+   /* resume-sub */
+   .resume-sub{
+    height: 55pxpx;
+   }
+   .main-heading{
+     font-size: 1.3rem;
+     font-weight: 700;
+     color: #4c4bf0;
+     word-spacing: 2;
+   }
+   .sub-heading{
+    color: rgb(77, 77, 109);
+    background-size: .8rem;
+    font-weight: 600;
+   }
 }
 
