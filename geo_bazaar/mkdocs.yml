@@ -1,0 +1,70 @@
+site_name: MkLorum
+nav:
+  - Home: index.md
+  - Module_List:
+      - User:
+         - Audhentication: audhentication.md
+         - Profile management: profile.md
+         - Home Section: home.md
+         - Prodcuct Listing: product_listing.md
+         - Prodcuct Details: product_details.md
+         - Cart: cart.md
+         - Payment: payment.md
+         - User To Seller: user_to_seller.md
+      - Admin:
+         - Audhentication: admin_audhenticato.md
+         - Admin User Management: admin_user_management.md
+         - Admin Product Management: admin_product_management.md
+         - Admin Order Management: admin_order_management.md
+         - Admin Reports And Analytics: admin_reports_and_analytics.md
+         - Admin Delivary Partner Management: admin_delivary_partner.md
+         - Admin User Product Verification: admin_product_verification.md
+      - Delivary:
+         - Audhentication: delivary_audhentication.md
+         - Operations: delivary_opearions.md
+  - Database_Design:
+      - User/Admin: user_database.md
+  - API Endpoints:
+      - Admin:
+         - Admin Authentication: apiauth.md
+         - Admin DashBoard: admin_dashboard.md
+         - Admin Orderes List: admin_order_list.md
+         - Admin Orderes Update: admin_order_update.md
+         - Admin Orderes Delete: admin_order_delete.md
+         - Admin Product List: admin_product_list.md
+         - Admin Product Update: admin_product_update.md
+         - Admin Product Delete: admin_product_Delete.md
+         - Admin Product Add: admin_product_add.md
+         - Admin User List: admin_user_list.md
+         - Admin User Update: admin_user_update.md
+         - Admin User Add: admin_user_add.md
+         - Admin Report: admin_report.md
+         - Admin Selling Request: admin_selling_request.md
+         - Admin Verifing Product: admin_verifing_product.md
+         - Admin Feeback: admin_feedback.md
+      - User:
+         - User Landing Page: user_landing_page.md
+         - User Signup Page: user_signup_page.md
+         - User Signin Page: user_signip_page.md
+         - User otp Verification: user_otp_verification.md
+         - User Account Access: user_account_access.md
+         - User Account Update: user_account_update.md
+         - User Cart Page: user_cart_page.md
+         - User Cart Add: user_cart_add.md
+         - User Cart Update: user_cart_update.md
+         - User Cart Delete: user_cart_delete.md
+         - User Wishlist: user_wishlist.md
+         - User Wishlist Delete: wish_list_delete.md
+         - Category Wise Product: category_wise_product.md
+         - Category Wise Product Location: category_wise_product_locaton.md
+         - User Product Details: user_products_details.md
+         - User Selling Request: user_selling_request.md
+         - User Check Out: user_check_out.md
+         - User Contact: user_feedback.md
+         - User Logout: user_logout.md
+  - Challanges:
+      - Category: finding_catogory.md
+      - Finding Products: finding_products.md
+theme: readthedocs
+
+

@@ -528,7 +528,7 @@
                 loading="lazy"
               />
             </div>
-            <form action="https://formspree.io/f/xqazpowy" method="post" class="contact-form" netlify>
+            <form action="https://formspree.io/f/xqazpowy" method="post" class="contact-form" netlify onsubmit="return validate()"> 
               <div class="form-field">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required />
@@ -553,7 +553,26 @@
         </div>
       </section>
     </main>
-
+    <script>
+      function validate(){
+        var name=document.getElementById("name").value;
+        var email=document.getElementById("email").value;
+        var message=document.getElementById("message").value;
+        if(name==""){
+          alert("please fill out this field");
+          return false;
+        }
+        if(email==""){
+          alert("please fill out this field ");
+          return false;
+        }
+        if(message==""){
+          alert("please fill out this field");
+          return false;
+        }
+        return true;
+      }
+    </script>
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
